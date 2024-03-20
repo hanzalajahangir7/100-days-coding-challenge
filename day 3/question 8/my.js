@@ -1,3 +1,5 @@
-var favourite_number = 7;
-var message = "The number ".concat(favourite_number, " is my favourite number");
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let favourite_number = 7;
+let message = `The number ${favourite_number} is my favourite number`;
 console.log(message);
